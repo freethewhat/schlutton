@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  $('.mouse').css({"top": window.innerHeight / 2 - 200, "left": window.innerWidth / 2 -200});
+
   $(document).mousemove(function(event)  {
     var mouseX = event.originalEvent.pageX;
     var mouseY = event.originalEvent.pageY;
@@ -6,7 +8,6 @@ $(document).ready(function() {
   })
 
   document.addEventListener('touchmove', function(event) {
-    console.log(event.touches[0].screenX);
     var mouseX = event.touches[0].screenX;
     var mouseY = event.touches[0].screenY;
     $(".mouse").css({"top": mouseY - 200, "left": mouseX - 200})
