@@ -19,13 +19,13 @@
         <p>Share them here!</p>
         <form ref='uploadForm'
           id='uploadForm'
-          action='http://localhost:3001/upload'
+          action='/upload'
           method='post'
           encType="multipart/form-data">
           <form
             ref='uploadForm'
             id='uploadForm'
-            action='http://localhost:8000/upload'
+            action='/upload'
             method='post'
             encType="multipart/form-data">
             <input type="file" name="sampleFile" accept=".jpg, .png, .jpeg"/>
@@ -33,12 +33,12 @@
           </form>
       </div>
     </div>
-    <div class="mouse">
+    <div id="repulse-div" class="mouse">
     </div>
     <div id="particles-js">
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="./js/particles.min.js" charset="utf-8"></script>
+    <script src="./js/particles.js" charset="utf-8"></script>
     <script src="./js/script.js" charset="utf-8"></script>
   </body>
 </html>
