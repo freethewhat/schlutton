@@ -3,7 +3,6 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  cursor: none;
   background-color: #343434;
 }
 
@@ -12,7 +11,6 @@ html, body {
   height: 100%;
   z-index: 2;
   position: absolute;
-  cursor: none;
 }
 
 .title {
@@ -40,7 +38,6 @@ html, body {
 .upload {
   color: white;
   position: absolute;
-  cursor: default;
   width: 200px;
   z-index: 3;
   background-color: rgba(0,0,0,.5);
